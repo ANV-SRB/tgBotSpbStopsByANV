@@ -25,7 +25,7 @@ fun main(){
         println("Токен: $tgBotToken")
     }
     ?: run {
-        println("Токен не найден")
+        println("Токен не найден. Завершение работы")
         return
     }
 
